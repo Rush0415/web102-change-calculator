@@ -12,7 +12,7 @@ document.getElementById("calculate-change").onclick = function() {
 
    dollars = Math.floor(change/1);
    change = (change % 1).toFixed(2);
-console.log(change%1);
+
    quarters = Math.floor(change/.25);
    change = (change % .25).toFixed(2);
 
